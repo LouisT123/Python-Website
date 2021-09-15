@@ -1,0 +1,32 @@
+<head>
+  <!-- route to index.css -->
+  <link href="index.css"
+  rel="stylesheet"  type="text/css">
+  
+  <!-- route to index.js -->
+  <script src="index.js" defer>
+    </script>
+</head>
+<body>
+  <div>
+    <!-- replicates same in template.html -->
+    {% extends 'template.html' %}
+    {% block body %}
+    
+    <h1>This is a demo</h1>
+
+    <ul>
+      <li> It looks okay </li>
+      <li> Nah who am i kidding this kinda trash </li>
+      <li> got a lot more to learn </li>
+    </ul>
+
+    <hr/>
+
+    <p>    Welcome to the scuffed webpage </p>
+    <img src="static/AquaSweat.png" />
+    
+    {% endblock %}
+  </div>
+</body>
+
